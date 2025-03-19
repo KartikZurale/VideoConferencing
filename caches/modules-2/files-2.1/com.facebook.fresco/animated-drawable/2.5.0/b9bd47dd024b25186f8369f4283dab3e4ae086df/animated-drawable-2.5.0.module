@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.fresco",
+    "module": "animated-drawable",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "animated-drawable-2.5.0.aar",
+          "url": "animated-drawable-2.5.0.aar",
+          "size": 36480,
+          "sha512": "7c923e5c57d2192c788ccfd8f7ff0669c2222921fe5035d6ec15f7860197952f4017bbba4bb79daf0e2a63caedbfea5de816943814bbc9870f8081b82d493208",
+          "sha256": "4708c1992e506b973830065d254b63dc3f4ca00362c7ccf30f7b705999771172",
+          "sha1": "885c83e3b0a95f7550cd2f554a8713b08f8c73c6",
+          "md5": "0323b211f00240c5762f3989766ebeb0"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-base",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "drawee",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fbcore",
+          "version": {
+            "requires": "2.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animated-drawable-2.5.0.aar",
+          "url": "animated-drawable-2.5.0.aar",
+          "size": 36480,
+          "sha512": "7c923e5c57d2192c788ccfd8f7ff0669c2222921fe5035d6ec15f7860197952f4017bbba4bb79daf0e2a63caedbfea5de816943814bbc9870f8081b82d493208",
+          "sha256": "4708c1992e506b973830065d254b63dc3f4ca00362c7ccf30f7b705999771172",
+          "sha1": "885c83e3b0a95f7550cd2f554a8713b08f8c73c6",
+          "md5": "0323b211f00240c5762f3989766ebeb0"
+        }
+      ]
+    }
+  ]
+}

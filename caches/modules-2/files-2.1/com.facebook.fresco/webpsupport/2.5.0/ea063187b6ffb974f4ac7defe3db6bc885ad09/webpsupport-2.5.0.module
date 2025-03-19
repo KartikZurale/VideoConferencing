@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.fresco",
+    "module": "webpsupport",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "webpsupport-2.5.0.aar",
+          "url": "webpsupport-2.5.0.aar",
+          "size": 1016697,
+          "sha512": "fd899e534e75f7de80c2107c7079f4821078b6762be33f52be21945ff1d46ef2eab35debc8e86f0419592b1e42bb33306233c92ed777a8ab777cab5d858b95e7",
+          "sha256": "0f2ddf3798a2a9a5cc2e315ea921c67e14761e3ec9a9b9487adad376fe979d76",
+          "sha1": "02cdfd718c03835145a1f42ad3e89160e58423fd",
+          "md5": "cb244c82c7f83f96ab271ea7ffc2d53c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.facebook.soloader",
+          "module": "nativeloader",
+          "version": {
+            "requires": "0.10.1"
+          }
+        },
+        {
+          "group": "com.parse.bolts",
+          "module": "bolts-tasks",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "fbcore",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "imagepipeline-base",
+          "version": {
+            "requires": "2.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "webpsupport-2.5.0.aar",
+          "url": "webpsupport-2.5.0.aar",
+          "size": 1016697,
+          "sha512": "fd899e534e75f7de80c2107c7079f4821078b6762be33f52be21945ff1d46ef2eab35debc8e86f0419592b1e42bb33306233c92ed777a8ab777cab5d858b95e7",
+          "sha256": "0f2ddf3798a2a9a5cc2e315ea921c67e14761e3ec9a9b9487adad376fe979d76",
+          "sha1": "02cdfd718c03835145a1f42ad3e89160e58423fd",
+          "md5": "cb244c82c7f83f96ab271ea7ffc2d53c"
+        }
+      ]
+    }
+  ]
+}

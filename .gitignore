@@ -1,0 +1,76 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# **1. Android Build & Gradle Files**
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+
+# **2. Compiled Code & Caches**
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.ap_  
+*.dex
+*.o
+*.so
+*.a
+*.lo
+*.la
+*.lib
+*.swp
+*.swo
+*.DS_Store
+*.pyc
+*.pyo
+
+# **3. Logs & Temporary Files**
+*.log
+*.tmp
+*.lock
+
+# **4. Keystore Files (Security)**
+*.jks
+*.keystore
+
+# **5. Dependency Caches**
+.cxx/
+.externalNativeBuild/
+.gradle/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# **6. OS-Specific Files**
+.DS_Store
+Thumbs.db
+
+# **7. Google Services & API Keys**
+google-services.json
+fabric.properties
+
+# **8. Node Modules (if using React Native or JS)**
+node_modules/
+npm-debug.log
+yarn-error.log

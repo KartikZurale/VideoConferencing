@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="gphActiveTextColor"/>
+    <attr format="color" name="gphBackgroundColor"/>
+    <attr format="dimension" name="gphCellPadding"/>
+    <attr format="color" name="gphChannelColor"/>
+    <attr format="enum" name="gphDirection">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr>
+    <attr format="color" name="gphHandleBarColor"/>
+    <attr format="boolean" name="gphShowCheckeredBackground"/>
+    <attr format="integer" name="gphSpanCount"/>
+    <attr format="color" name="gphTextColor"/>
+    <color name="gph_active_image_color_dark">#FF00FF99</color>
+    <color name="gph_active_image_color_light">#FF121212</color>
+    <color name="gph_active_text_color_dark">#ff00FF99</color>
+    <color name="gph_active_text_color_light">#ff000000</color>
+    <color name="gph_back_button_dark">#FFFFFF</color>
+    <color name="gph_back_button_light">#000000</color>
+    <color name="gph_background_dark">#ff121212</color>
+    <color name="gph_background_light">#ffFFFFFF</color>
+    <color name="gph_captions_background_color_dark">#AA000000</color>
+    <color name="gph_captions_background_color_light">#AA000000</color>
+    <color name="gph_channel_color_dark">#ffD8D8D8</color>
+    <color name="gph_channel_color_light">#FF4E4E4E</color>
+    <color name="gph_dark_grey">#464646</color>
+    <color name="gph_dark_red">#990E0E</color>
+    <color name="gph_dialog_overlay_dark">#994E4E4E</color>
+    <color name="gph_dialog_overlay_light">#99888888</color>
+    <color name="gph_gif_details_progress_bar_bg">#00FF99</color>
+    <color name="gph_handle_bar_dark">#ff888888</color>
+    <color name="gph_handle_bar_light">#ff888888</color>
+    <color name="gph_image_color_dark">#C09A9A9A</color>
+    <color name="gph_image_color_light">#C0BABABA</color>
+    <color name="gph_more_by_you_back_dark">#F1F1F1</color>
+    <color name="gph_more_by_you_back_light">#F1F1F1</color>
+    <color name="gph_purple_btn">#6157ff</color>
+    <color name="gph_purple_btn_selected">#36318f</color>
+    <color name="gph_search_bar_background_dark">#4E4E4E</color>
+    <color name="gph_search_bar_background_light">#ECECEC</color>
+    <color name="gph_search_query_dark">#ffffff</color>
+    <color name="gph_search_query_light">#5C5C5C</color>
+    <color name="gph_suggestion_back_dark">#212121</color>
+    <color name="gph_suggestion_back_light">#F1F1F1</color>
+    <color name="gph_text_color_dark">#ffA6A6A6</color>
+    <color name="gph_text_color_light">#ffA6A6A6</color>
+    <color name="gph_transparent">#00000000</color>
+    <color name="gph_white">#ffffff</color>
+    <color name="video_buffering_indicator">#00FF99</color>
+    <dimen name="gph_bottom_bar_margin">5dp</dimen>
+    <dimen name="gph_button_height">32dp</dimen>
+    <dimen name="gph_button_width">42dp</dimen>
+    <dimen name="gph_carrousel_height">140dp</dimen>
+    <dimen name="gph_gif_border_size">5dp</dimen>
+    <dimen name="gph_search_bar_height">45dp</dimen>
+    <dimen name="gph_search_bar_margin">8dp</dimen>
+    <dimen name="gph_search_bar_margin_bottom">5dp</dimen>
+    <dimen name="gph_search_bar_margin_top">5dp</dimen>
+    <dimen name="info_user_channel_avatar_dimens">70dp</dimen>
+    <dimen name="user_channel_avatar_dimens">84dp</dimen>
+    <dimen name="user_info_dialog_social_item_margin">17dp</dimen>
+    <dimen name="user_info_dialog_social_item_size">20dp</dimen>
+    <dimen name="user_related_gifs_avatar_dimen">50dp</dimen>
+    <dimen name="user_related_gifs_banner_max_height">85dp</dimen>
+    <dimen name="user_related_gifs_text_size">16sp</dimen>
+    <drawable name="gph_grid_view_selector_pressed">#99000000</drawable>
+    <item name="gifBaseView" type="id"/>
+    <item name="gifBaseViewOverlay" type="id"/>
+    <item name="gifDragEdge" type="id"/>
+    <item name="gifListOverlay" type="id"/>
+    <item name="gifMediaSelector" type="id"/>
+    <item name="gifRecyclerView" type="id"/>
+    <item name="gifSearchBar" type="id"/>
+    <item name="gifSearchBarContainer" type="id"/>
+    <item name="gifSearchOverlay" type="id"/>
+    <item name="gifSuggestionsPlaceholderView" type="id"/>
+    <item name="gifSuggestionsView" type="id"/>
+    <item name="gphDynamicTextContainer" type="id"/>
+    <item name="gphItemTypeClip" type="id"/>
+    <item name="gphItemTypeEmoji" type="id"/>
+    <item name="gphItemTypeGif" type="id"/>
+    <item name="gphItemTypeRecents" type="id"/>
+    <item name="gphItemTypeSticker" type="id"/>
+    <item name="gphItemTypeText" type="id"/>
+    <item name="gphSearchBackButton" type="id"/>
+    <string name="gph_attibution_back">Back</string>
+    <string name="gph_back">Back</string>
+    <string name="gph_choose_clip">Select Clip</string>
+    <string name="gph_choose_emoji">Select Emoji</string>
+    <string name="gph_choose_gif">Select GIF</string>
+    <string name="gph_choose_sticker">Select Sticker</string>
+    <string name="gph_clear_search">Clear search</string>
+    <string name="gph_clips">Clips</string>
+    <string name="gph_copy">Copy</string>
+    <string name="gph_copy_link">Copy Link</string>
+    <string name="gph_emoji">Emoji</string>
+    <string name="gph_error_generic_list_loading">Oh NO! Something Went Wrong.</string>
+    <string name="gph_error_no_clips_found">No clips found</string>
+    <string name="gph_error_no_gifs_found">No GIFs found</string>
+    <string name="gph_error_no_recent_found">No recents found</string>
+    <string name="gph_error_no_stickers_found">No stickers found</string>
+    <string name="gph_error_no_texts_found">No text found</string>
+    <string name="gph_gifs">GIFs</string>
+    <string name="gph_gifs_stickers"><![CDATA[Gifs & Stickers]]></string>
+    <string name="gph_info">Information</string>
+    <string name="gph_more_by">More by @%1$s</string>
+    <string name="gph_more_by_you">More by You</string>
+    <string name="gph_more_creator">See more by creator</string>
+    <string name="gph_recents">Recents</string>
+    <string name="gph_remove">Remove</string>
+    <string name="gph_results_count">%1$d results</string>
+    <string name="gph_retry">Retry</string>
+    <string name="gph_search_giphy">Search GIPHY</string>
+    <string name="gph_search_giphy_clips">Search GIPHY Clips</string>
+    <string name="gph_search_giphy_stickers">Search GIPHY Stickers</string>
+    <string name="gph_search_giphy_text">Search GIPHY Text</string>
+    <string name="gph_select">Select</string>
+    <string name="gph_share">Share</string>
+    <string name="gph_stickers">Stickers</string>
+    <string name="gph_text">Text</string>
+    <string name="gph_video_error">The clip is currently unavailable</string>
+    <string name="gph_view_on_giphy">View on GIPHY</string>
+    <style name="GiphyDarkTheme" parent="GiphyDialogStyle">
+        <item name="gphBackgroundColor">#FF121212</item>
+        <item name="gphTextColor">#FFA6A6A6</item>
+        <item name="gphActiveTextColor">#FF00FF99</item>
+        <item name="gphHandleBarColor">#FF888888</item>
+        <item name="gphChannelColor">#FFD8D8D8</item>
+    </style>
+    <style name="GiphyDialogStyle" parent="@style/Theme.AppCompat.DayNight.Dialog">
+        <item name="android:windowBackground">@color/gph_transparent</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="GiphyLightTheme" parent="GiphyDialogStyle">
+        <item name="gphBackgroundColor">#FFF1F1F1</item>
+        <item name="gphTextColor">#FFA6A6A6</item>
+        <item name="gphActiveTextColor">#FF000000</item>
+        <item name="gphHandleBarColor">#FF888888</item>
+        <item name="gphChannelColor">#FF4E4E4E</item>
+    </style>
+    <style name="GiphyWaterfallDialogStyle" parent="GiphyDialogStyle">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.2</item>
+    </style>
+    <style name="GphActionStyle">
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gph_dark_grey</item>
+    </style>
+    <style name="GphActionStyle.Remove" parent="GphActionStyle">
+        <item name="android:textColor">@color/gph_dark_red</item>
+    </style>
+    <declare-styleable name="GPHVideoPlayerView">
+        <attr format="boolean" name="gphShowControls"/>
+    </declare-styleable>
+    <declare-styleable name="GifView">
+        <attr format="boolean" name="gphDynamicHeight"/>
+        <attr format="boolean" name="gphKeepGifRatio"/>
+        <attr format="dimension" name="gphCornerRadius"/>
+    </declare-styleable>
+    <declare-styleable name="GiphyGridView">
+        <attr name="gphDirection"/>
+        <attr name="gphSpanCount"/>
+        <attr name="gphCellPadding"/>
+        <attr name="gphShowCheckeredBackground"/>
+        <attr format="boolean" name="gphUseInExtensions"/>
+    </declare-styleable>
+</resources>

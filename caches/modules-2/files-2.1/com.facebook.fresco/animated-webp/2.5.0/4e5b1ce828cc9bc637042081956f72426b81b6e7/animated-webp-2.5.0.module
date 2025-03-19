@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.facebook.fresco",
+    "module": "animated-webp",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "animated-webp-2.5.0.aar",
+          "url": "animated-webp-2.5.0.aar",
+          "size": 9450,
+          "sha512": "161f1deceb9d855c44a9719aeaaa35f3a6e9e3288df04c2cde28fbb04cb9fba2c7dcff229662c2f2a0b500a9ea8364aca78a157a4869a8b1405155d443c49f0e",
+          "sha256": "1e6114339e0897873977fa8c13b02f0a91acabb1becce30225578e153d1a7e72",
+          "sha1": "07806c0886eb3726aa9118ca91d91991ff7a7989",
+          "md5": "24ce46ced997efbd0f5fc7f3048e8bd2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.parse.bolts",
+          "module": "bolts-tasks",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "webpsupport",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.facebook.fresco",
+          "module": "animated-base",
+          "version": {
+            "requires": "2.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "animated-webp-2.5.0.aar",
+          "url": "animated-webp-2.5.0.aar",
+          "size": 9450,
+          "sha512": "161f1deceb9d855c44a9719aeaaa35f3a6e9e3288df04c2cde28fbb04cb9fba2c7dcff229662c2f2a0b500a9ea8364aca78a157a4869a8b1405155d443c49f0e",
+          "sha256": "1e6114339e0897873977fa8c13b02f0a91acabb1becce30225578e153d1a7e72",
+          "sha1": "07806c0886eb3726aa9118ca91d91991ff7a7989",
+          "md5": "24ce46ced997efbd0f5fc7f3048e8bd2"
+        }
+      ]
+    }
+  ]
+}
