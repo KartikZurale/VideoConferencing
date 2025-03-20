@@ -20,7 +20,7 @@
         android:layout_marginTop="24dp"
         android:text="Register / Login"
         android:textColor="#000"
-        android:textSize="40dp"
+        android:textSize="32dp"
         android:textStyle="bold"
         app:cornerRadius="5dp" />
 
