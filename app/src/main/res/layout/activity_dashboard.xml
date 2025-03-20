@@ -66,9 +66,8 @@
                 android:layout_margin="10dp"
                 android:background="@drawable/textbox_style"
                 android:ems="10"
-                android:hint="Room Code"
+                android:hint="Create / Enter Code"
                 android:inputType="textPersonName"
-                android:text="Create / Enter Code"
                 android:textColor="@color/amp_gray" />
 
             <Button
