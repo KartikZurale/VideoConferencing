@@ -5,14 +5,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginEnd="10dp"
-    android:background="@drawable/img2"
+
     tools:context=".DashboardActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/bg_image"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="58dp" />
 
     <Button
         android:id="@+id/demoBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:backgroundTint="@color/amp_light_gray"
+        android:shape="rectangle"
         android:text="Logout"
+        android:textColor="@color/amp_gray"
+        app:cornerRadius="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +40,8 @@
 "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="30dp">
+        app:layout_constraintVertical_bias="0.701"
+        tools:layout_editor_absoluteX="31dp">
 
 
         <LinearLayout
@@ -36,20 +50,14 @@
             android:layout_margin="5dp"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_margin="10dp"
-                app:srcCompat="@drawable/logo" />
-
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:gravity="center"
-                android:text="Please Create a room code / name and share the code with your friends to start video call or enter the code of the room you want to join" />
+                android:text="Create a new code as a Host or Enter a code to participate in the conference."
+                android:textColor="@color/black" />
 
             <EditText
                 android:id="@+id/codeBox"
@@ -60,7 +68,8 @@
                 android:ems="10"
                 android:hint="Room Code"
                 android:inputType="textPersonName"
-                android:text="" />
+                android:text="Create / Enter Code"
+                android:textColor="@color/amp_gray" />
 
             <Button
                 android:id="@+id/joinBtn"
@@ -69,16 +78,23 @@
                 android:layout_margin="10dp"
                 android:background="@drawable/signupbtn_style"
                 android:insetTop="10dp"
-                android:text="Join/create" />
+                android:shape="rectangle"
+                android:text="Join / Create"
+                android:textAllCaps="false"
+                app:cornerRadius="5dp" />
+
 
             <Button
                 android:id="@+id/shareBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
                 android:background="@drawable/loginbtn_style"
-                android:text="share" />
+                android:text="Share"
+                android:textAllCaps="false"
+                app:cornerRadius="5dp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
