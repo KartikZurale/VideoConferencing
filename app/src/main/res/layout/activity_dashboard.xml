@@ -35,16 +35,16 @@
         android:id="@+id/cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="30dp
-
-"
+        android:layout_margin="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701"
-        tools:layout_editor_absoluteX="31dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.701">
 
 
-        <LinearLayout
+
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="5dp"
@@ -59,39 +59,53 @@
                 android:text="Create a new code as a Host or Enter a code to participate in the conference."
                 android:textColor="@color/black" />
 
-            <EditText
-                android:id="@+id/codeBox"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/textbox_style"
-                android:ems="10"
-                android:hint="Create / Enter Code"
-                android:inputType="textPersonName"
-                android:textColor="@color/amp_gray" />
+        <EditText
+            android:id="@+id/codeBox"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/textbox_style"
+            android:ems="10"
+            android:hint="Create / Enter Code"
+            android:inputType="textPersonName"
+            android:textColor="@color/amp_gray" />
 
-            <Button
-                android:id="@+id/joinBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/signupbtn_style"
-                android:insetTop="10dp"
-                android:shape="rectangle"
-                android:text="Join / Create"
-                android:textAllCaps="false"
-                app:cornerRadius="5dp" />
+<!--            <Button-->
+<!--                android:id="@+id/joinBtn"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="10dp"-->
+<!--                android:background="@drawable/signupbtn_style"-->
+<!--                android:insetTop="10dp"-->
+<!--                android:shape="rectangle"-->
+<!--                android:text="Join / Create"-->
+<!--                android:textAllCaps="false"-->
+<!--                app:cornerRadius="5dp" />-->
 
+        <Button
+            android:id="@+id/createBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Create Meeting" />
 
-            <Button
-                android:id="@+id/shareBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/loginbtn_style"
-                android:text="Share"
-                android:textAllCaps="false"
-                app:cornerRadius="5dp" />
+        <Button
+            android:id="@+id/joinBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Join Meeting" />
+
+        <Button
+            android:id="@+id/shareBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/black"
+            android:shape="rectangle"
+            android:text="Share"
+            android:textAllCaps="false"
+            app:cornerRadius="5dp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "848398036997",
-    "project_id": "video-calling-app-93b37",
-    "storage_bucket": "video-calling-app-93b37.appspot.com"
+    "project_number": "914176946541",
+    "project_id": "webrtc-1bcaf",
+    "storage_bucket": "webrtc-1bcaf.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:848398036997:android:3f3d6dff8319228ac72c6c",
+        "mobilesdk_app_id": "1:914176946541:android:db1bcf23d0607c1f3daa64",
         "android_client_info": {
           "package_name": "com.example.videocallingapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "848398036997-2roj2oo2vseh8e9lri3o5j0s2gib2pdm.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDKihRqn4VW1yoe2olntlkvoLqTYhZlzq0"
+          "current_key": "AIzaSyBVP9sxO5f09CIVKvEqfBMRXC5imGrWFKc"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "848398036997-2roj2oo2vseh8e9lri3o5j0s2gib2pdm.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

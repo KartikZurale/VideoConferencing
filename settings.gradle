@@ -18,5 +18,5 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Video Calling App"
+rootProject.name = "Video Conferencing"
 include ':app'
