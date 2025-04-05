@@ -14,7 +14,12 @@
         android:layout_height="249dp"
         app:srcCompat="@drawable/bg_image"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="58dp" />
+        tools:layout_editor_absoluteY="58dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
 
     <Button
         android:id="@+id/demoBtn"
