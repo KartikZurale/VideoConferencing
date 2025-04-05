@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Video Conferencing</string>
+    <string name="create_enter_code">Create / Enter Code</string>
+    <string name="create_meet">Create/Join Meeting</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="banner_img">Banner Image</string>
+    <string name="new_meeting_description">Create a new code as a Host or Enter a code to participate.</string>
 </resources>
